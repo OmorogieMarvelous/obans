@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+nav {
+  display: flex;
+  width: 100vw;
+  height: 64px;
+  background-color: #592722;
+  justify-content: center;
+}
+
+nav ul {
+  display: flex;
+  width: 80%;
+  height: 64px;
+  background-color: #592722;
+  color: white;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul li{
+    list-style: none;
+}
+
+.bottom-strip{
+    height: 192px;
+    width: 100wv;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: #592722;
+}
